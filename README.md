@@ -8,12 +8,12 @@ Say "point for Mark" and Callout adds the point and reads the score aloud.
 
 ## Features
 
-- **Voice control** for adding, removing and undoing points
+- **Smart voice control** that understands everyday phrasing, corrections and questions
 - **Score read aloud** after each score change (on by default)
 - **1 to 5 counters**, side by side, each with its own name and color
 - **Custom rules:** starting score, winning score, points per tap, win by 2, and scores below zero
 - **Count up or down:** set "Until" lower than "Starting at" to count down
-- **Spoken setup:** tap "Speak the rules" and say "until 20, starting at 5"
+- **Spoken setup:** set names and rules by voice
 - **Liquid Glass-style buttons**, in a contrasting color on each side
 - **Next Match:** after a win, return to the rules page with the same names and rules
 - **Extras:** game timer, tap sounds, vibration, keep screen on, and swap sides (where your device supports them)
@@ -27,22 +27,29 @@ Say "point for Mark" and Callout adds the point and reads the score aloud.
 4. Tap **Start Game** and allow the microphone.
 5. Call out points, or tap **+** and **−**.
 
-## Voice commands
+## Smart voice
 
-Replace "Mark" with any name you entered, or a counter color such as "blue".
+You don't need exact commands. Callout works out who you mean and what you want, so you can talk naturally. It runs inside your browser with built-in language rules, with no AI account, key or fee.
 
-| Say | What happens |
+Use the names you entered, a counter color ("red team"), a position ("player two", or "left side" with two counters).
+
+| You want to | For example |
 |---|---|
-| "Point for Mark" | Adds your "points per tap" amount |
-| "Add 3 to Mark" | Adds 3 points |
-| "Minus point Mark" | Removes your "points per tap" amount |
-| "Undo" | Reverses the last score change during a match |
-| "What's the score" | Reads the score |
-| "Reset game" | Returns all scores to the starting number |
-| "Next match" | After a win, opens the rules page |
-| "Stop listening" | Turns the microphone off |
+| Add points | "Give Sara two" · "Mark scores" · "Another one for Mark" |
+| Score several at once | "2 for Mark and 1 for Sara" · "Everyone gets a point" |
+| Take points away | "Take one from Mark" · "Sara loses 2" |
+| Set a score | "Set Mark to 10" · "Sara should have 8" |
+| Fix a mistake | "No, that was Sara" · "Scratch that" |
+| Repeat | "Same again" · "One more" |
+| Ask | "Who's winning?" · "How many does Mark need?" · "What are we playing to?" |
+| Control the game | "Swap sides" · "Start over" · "Be quiet" · "Start talking" · "Go home" · "Stop listening" |
+| After a win | "Next match" · "Play again" |
 
-Wait for the score to finish being read before saying the next command.
+To avoid scoring from background chatter, Callout ignores sentences it isn't sure about. The top of the screen shows what it heard. Wait for the score to finish being read before speaking again.
+
+### Spoken rules
+
+On the rules page, tap **Speak the rules** and say, for example, "names are Mark and Sara, first to 21, win by 2".
 
 ## Run it on your computer
 
