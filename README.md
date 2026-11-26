@@ -4,6 +4,8 @@
 
 Say "point for Mark" and Callout adds the point and reads the score aloud.
 
+**Play now:** https://callout-gamma.vercel.app
+
 ## Features
 
 - **Voice control** for adding, removing and undoing points
@@ -52,12 +54,15 @@ python app.py
 
 Callout opens in your browser, usually at `http://localhost:8765`.
 
-## Put it online with Vercel
+## Publishing
 
-1. In Vercel, add a new project and import this repository.
-2. Deploy it. The Python settings are in `pyproject.toml`.
+This repository is connected to Vercel. Each push to the `main` branch publishes the new version automatically.
 
-After the repository is connected, pushes to the `main` branch publish automatically.
+To get the latest code on your computer:
+
+```bash
+git pull
+```
 
 ## Voice support
 
