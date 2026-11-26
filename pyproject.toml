@@ -1,0 +1,9 @@
+[project]
+name = "callout"
+version = "1.0.0"
+description = "Voice-activated score counter"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.vercel]
+entrypoint = "app:app"
